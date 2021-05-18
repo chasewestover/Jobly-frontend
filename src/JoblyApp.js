@@ -2,9 +2,10 @@ import { useState } from "react";
 import NavBar from "./NavBar";
 import Routes from "./Routes";
 import jwt from 'jsonwebtoken';
-import { useHistory } from "react-router";
+import { Route, Switch, useHistory } from "react-router";
 import "./JoblyApp.css";
 import UserContext from "./UserContext";
+import EnterPage from "./EnterPage";
 
 function JoblyApp() {
   const history = useHistory();
@@ -26,10 +27,16 @@ function JoblyApp() {
   return (
     <div className="JoblyApp">
       <UserContext.Provider value={{ user, removeUser, updateUser }}>
-        <NavBar />
-        <div className="JoblyContent">
-          <Routes />
-        </div>
+        <Switch>
+          <Route path="/enter"><EnterPage /></Route>
+          <Route>
+            <NavBar />
+            <div className="JoblyContent">
+              <Routes />
+            </div>
+          </Route>
+        </Switch>
+        
       </UserContext.Provider>
     </div>
   );

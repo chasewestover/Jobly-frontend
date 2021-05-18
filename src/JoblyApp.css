@@ -69,3 +69,12 @@ body {
 .CompanyCard:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
+button {
+  background-color: #059669 !important;
+  border-color: #048a5f !important;
+}
+button:hover {
+  background-color: #059669 !important;
+  border-color: #048a5f !important;
+}

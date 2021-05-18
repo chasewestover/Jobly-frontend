@@ -1,5 +1,5 @@
 .NavBar {
-  background-color: rgb(67, 127, 196);
+  background-color: #059669;
   text-align: center;
   height: 60px;
 }
@@ -20,7 +20,7 @@
 }
 
 .NavBar a:hover {
-  color: #2e5cac !important;
+  color: #1a1b1d !important;
 }
 
 .NavBar a.active {
