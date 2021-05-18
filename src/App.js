@@ -1,11 +1,11 @@
 import JoblyApp from './JoblyApp';
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <JoblyApp/>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
