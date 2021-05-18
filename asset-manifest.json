@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Jobly-frontend/static/css/main.e44a8740.chunk.css",
-    "main.js": "/Jobly-frontend/static/js/main.a6e8089c.chunk.js",
-    "main.js.map": "/Jobly-frontend/static/js/main.a6e8089c.chunk.js.map",
+    "main.css": "/Jobly-frontend/static/css/main.a0eff580.chunk.css",
+    "main.js": "/Jobly-frontend/static/js/main.81cf42da.chunk.js",
+    "main.js.map": "/Jobly-frontend/static/js/main.81cf42da.chunk.js.map",
     "runtime-main.js": "/Jobly-frontend/static/js/runtime-main.54a5c7c8.js",
     "runtime-main.js.map": "/Jobly-frontend/static/js/runtime-main.54a5c7c8.js.map",
     "static/js/2.1bdc30ae.chunk.js": "/Jobly-frontend/static/js/2.1bdc30ae.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.49dff146.chunk.js": "/Jobly-frontend/static/js/3.49dff146.chunk.js",
     "static/js/3.49dff146.chunk.js.map": "/Jobly-frontend/static/js/3.49dff146.chunk.js.map",
     "index.html": "/Jobly-frontend/index.html",
-    "static/css/main.e44a8740.chunk.css.map": "/Jobly-frontend/static/css/main.e44a8740.chunk.css.map",
+    "static/css/main.a0eff580.chunk.css.map": "/Jobly-frontend/static/css/main.a0eff580.chunk.css.map",
     "static/js/2.1bdc30ae.chunk.js.LICENSE.txt": "/Jobly-frontend/static/js/2.1bdc30ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54a5c7c8.js",
     "static/js/2.1bdc30ae.chunk.js",
-    "static/css/main.e44a8740.chunk.css",
-    "static/js/main.a6e8089c.chunk.js"
+    "static/css/main.a0eff580.chunk.css",
+    "static/js/main.81cf42da.chunk.js"
   ]
 }
