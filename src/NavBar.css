@@ -1,0 +1,29 @@
+.NavBar {
+  background-color: rgb(67, 127, 196);
+  text-align: center;
+  height: 60px;
+}
+.NavBar a, .logout {
+  padding: 1em 0;
+  width: 7em;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+.NavBar .home {
+  float: left;
+}
+
+.NavBar .NavBarRight {
+  float: right;
+}
+
+.NavBar a:hover {
+  color: #2e5cac !important;
+}
+
+.NavBar a.active {
+  font-weight: bold;
+  color: black;
+}
