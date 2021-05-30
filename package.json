@@ -1,6 +1,5 @@
 {
   "name": "react-jobly",
-  "homepage": "https://chasewestover.github.io/Jobly-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build", 
     "build": "react-scripts build",
+    "surge": "npm run build && cd build && mv index.html 200.html && surge `pwd` jobly-react-cw.surge.sh && cd ..",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
