@@ -16,7 +16,7 @@ Local Storage) and middleware. Users can only view certain routes, and some
 routes require admin authorization. 
 
 You can view the deployed version
-[here](https://chasewestover.github.io/Jobly-frontend/).
+[here](http://jobly-react-cw.surge.sh/).
 
 ## Installation and Setup Instructions
 
