@@ -1,19 +1,14 @@
 # Jobly
 
 A full-stack application where users can search for and apply to jobs, built
-with React on the frontend and
-Node/Express on the
-backend. For ease of deployment, the backend and frontend repositories are
-separate. You can access the backend repository [here](https://github.com/chasewestover/Jobly-backend).
+with React on the frontend and Node/Express on the backend.
 
-App allows users to sign-up or login. Once logged in, users can view companies,
-company detail pages (jobs posted for that company), and all jobs. Users can
-also apply to jobs they haven't previously applied to. Lastly, users can edit
-their profiles. 
+Users are able to sign up and login. Once logged in, users can view companies,
+company detail pages, and all jobs. Users can apply to jobs they have not already
+applied to. Lastly, users can edit their profile information. 
 
 Authorization and authentication is handled using JSON Web Tokens (stored in
-Local Storage) and middleware. Users can only view certain routes, and some
-routes require admin authorization. 
+Local Storage). Some routes require admin authorization. 
 
 You can view the deployed version
 [here](http://jobly-react-cw.surge.sh/).
@@ -21,8 +16,8 @@ You can view the deployed version
 ## Installation and Setup Instructions
 
 ### Server-side
-1. Clone this repository and the [backend
-   repository](https://github.com/chasewestover/Jobly-backend). 
+1. Clone the [backend
+   repository](https://github.com/chasewestover/Jobly-frontend)
 2. `cd express-jobly`
 3. `npm install`
 4. `createdb jobly`
@@ -31,7 +26,9 @@ You can view the deployed version
 7. `npm start`
 
 ### Client-side
-1. `cd jobly-frontend`
+1. Clone the [frontend
+   repository](https://github.com/chasewestover/Jobly-frontend)
+2. `cd jobly-frontend`
 2. `npm install`
 3. `npm start`
 
